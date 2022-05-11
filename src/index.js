@@ -45,6 +45,20 @@ document.addEventListener('wheel', zoom);
 }
 document.onwheel = zoom;
 
+// load 
+window.onload = () => {
+    console.log('page loaded');
+}
+
+// focus
+
+const focusMethod = function getFocus() {
+    const nav = document.querySelector('.nav').forEach(focus('mouseover', nav.a.
+    textsize += 3))
+}
+
+nav.addEventListener('focus', focusMethod);
+
 
 
 
